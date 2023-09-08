@@ -1,0 +1,32 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gameContainer{
+  display: grid;
+  grid-template-columns: repeat(3,1fr)
+}
+#messageContainer{
+  margin:20px 5% 20px 5%;
+  padding: 10px 10px 10px 25px;
+  border-radius:10px;
+  font-size:0.7rem;
+  font-size:1rem;
+  border: 1px solid black;
+ 
+}
+#CaseContainer{
+  border:1px solid black ;
+  background:white;
+  height:50px;
+  width: 50px;
+  padding:30px;
+  font-size:3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#restBtn{
+  margin-top: 10px;
+}
